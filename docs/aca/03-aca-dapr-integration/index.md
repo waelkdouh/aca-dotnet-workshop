@@ -189,6 +189,6 @@ When we complete the previous step, we are ready to run the applications locally
 
     Now both Applications are running using Dapr sidecar, open your browser and browser for "https://localhost:{localwebappport}", in my case it will be "https://localhost:7208" and provide an email to load the tasks for the user, if all is good you should see tasks list results.
 
-**Note:** If we need to run both microservices together, we need to keep calling `dapr run` manually each time in the terminal, and when we have multiple microservices talking to each other and need to run at the same time to debug the solution, this will be a very annoying process. You can refer to the [debug and launch Dapr applications in VSCode](xxx) to see how configure VScode for running and debugging Dapr applications.
+**Note:** If we need to run both microservices together, we need to keep calling `dapr run` manually each time in the terminal, and when we have multiple microservices talking to each other and need to run at the same time to debug the solution, this will be a very annoying process. You can refer to the [debug and launch Dapr applications in VSCode](../../aca/20-appendix/01-run-debug-dapr-app-vscode.md) to see how configure VScode for running and debugging Dapr applications.
 
 In the next module, we will integrate the Dapr state store building block by saving tasks to Azure Cosmos DB, and deploy the updated applications to Azure Container Apps.
